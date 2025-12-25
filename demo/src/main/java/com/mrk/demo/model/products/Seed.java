@@ -1,0 +1,29 @@
+package com.mrk.demo.model.products;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+@Data
+@Entity
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "seeds")
+public class Seed {
+
+    @Id
+    private Integer id;
+
+    private String name;
+    private LocalDate manufactureDate;
+    private LocalDate expiryDate;
+    private double price;
+    private int quantity;
+    private String unit;
+    private int newStockAdded;
+    private int totalStock;
+}
+
