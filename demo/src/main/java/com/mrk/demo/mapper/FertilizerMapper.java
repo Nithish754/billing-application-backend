@@ -10,7 +10,6 @@ public class FertilizerMapper {
 
     public  Fertilizer convert(FertilizerReqDTO request) {
         return Fertilizer.builder()
-                .id(request.getId())
                 .name(request.getName())
                 .manufactureDate(request.getManufactureDate())
                 .expiryDate(request.getExpiryDate())

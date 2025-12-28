@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PesticideReqDTO {
-    private Integer id;
+
     private String name;
     private LocalDate manufactureDate;
     private LocalDate expiryDate;

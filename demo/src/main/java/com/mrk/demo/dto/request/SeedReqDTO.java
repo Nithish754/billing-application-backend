@@ -10,7 +10,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class SeedReqDTO {
 
-    private Integer id;
     private String name;
     private LocalDate manufactureDate;
     private LocalDate expiryDate;

@@ -10,7 +10,6 @@ public class PesticideMapper {
 
     public Pesticide convert(PesticideReqDTO request) {
         return Pesticide.builder()
-                .id(request.getId())
                 .name(request.getName())
                 .manufactureDate(request.getManufactureDate())
                 .expiryDate(request.getExpiryDate())

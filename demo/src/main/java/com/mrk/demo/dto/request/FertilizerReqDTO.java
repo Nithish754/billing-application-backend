@@ -9,7 +9,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class FertilizerReqDTO {
 
-    private Integer id;
     private String name;
     private LocalDate manufactureDate;
     private LocalDate expiryDate;

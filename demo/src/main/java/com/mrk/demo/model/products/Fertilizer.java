@@ -19,6 +19,7 @@ import java.util.UUID;
 public class Fertilizer {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String name;

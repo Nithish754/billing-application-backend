@@ -10,7 +10,6 @@ public class SeedMapper {
 
     public Seed convert(SeedReqDTO request) {
         return Seed.builder()
-                .id(request.getId())
                 .name(request.getName())
                 .manufactureDate(request.getManufactureDate())
                 .expiryDate(request.getExpiryDate())

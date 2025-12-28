@@ -17,6 +17,7 @@ import java.time.LocalDate;
 public class Pesticide {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String name;
