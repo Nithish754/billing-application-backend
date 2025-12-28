@@ -17,6 +17,7 @@ public class FertilizerMapper {
                 .quantity(request.getQuantity())
                 .unit(request.getUnit())
                 .newStockAdded(request.getNewStockAdded())
+                .totalStock(request.getNewStockAdded())
                 .build();
     }
 
